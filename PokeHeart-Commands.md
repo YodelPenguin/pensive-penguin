@@ -74,6 +74,9 @@
 :arrow_up: `p!levelup`
 > Toggles **level-up** notifications
 
+:loop: `p!redirect` <*`channelID`*>
+> Redirect spawns to *`channelID`*, requires admin permissions
+
 **About & Revision Info**
 -----------
 :penguin: PM me ( @Yodel Penguin#9982 ) if this needs updating or something doesn't work!
