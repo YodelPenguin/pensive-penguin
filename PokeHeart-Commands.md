@@ -44,6 +44,9 @@
 :pound: `p!bal`
 > Displays your **Sterling balance**  
 
+:credit_card: `p!card`
+> Displays your **trainer card**, with stats.
+
 :love_letter: `p!trade` *`@DiscordUser`* {`p!confirm`} {`p!deny`}
 > **Open a trade** with *`@DiscordUser`*
 > *`@DiscordUser`* enters `p!confirm` or `p!deny` to accept or decline the trade request
