@@ -85,4 +85,4 @@
 :penguin: PM me ( @Yodel Penguin#9982 ) if this needs updating or something doesn't work!
 
 This guide has been released under the Apache 2.0 licence, see https://github.com/YodelPenguin/pensive-penguin/blob/master/LICENCE for details.
-|| 1.2.0 - rev 07/06/20  ||
+|| 1.2.2 - rev 07/06/20  ||
