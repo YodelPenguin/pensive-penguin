@@ -18,11 +18,11 @@
 > **Info** on chosen Pokemon / latest caught
 > /** ID No *`X`* **
 > /** Nickname *`X`* *`name`* **
->
+
 :ballot_box_with_check: `p!select` <*`X`*>
 > Select Pokemon *`X`* (for trading/checking moves)
 
-:: `p!moves`
+:cyclone:  `p!moves`
 > **Displays moves** for selected Pokemon
 
 :bookmark_tabs: `p!pokemon` <`PageNo`>
@@ -34,7 +34,7 @@
 
 ## SPLIT HERE (Discord character limit) 1/2
 
- **Items & Trading**
+**Items & Trading**
 ------------
  :convenience_store: `p!shop` <`stone`> <`forms`> <`misc`> <`images`>
 > **Evolution** Stones / **Form Items**
@@ -74,10 +74,9 @@
 :arrow_up: `p!levelup`
 > Toggles **level-up** notifications
 
-------------
 **About & Revision Info**
 -----------
-:penguin: PM me ( @Yodel Penguin#9982 ) if this needs updating or doesn't work etc.
+:penguin: PM me ( @Yodel Penguin#9982 ) if this needs updating or something doesn't work!
 
-This MD doc has been released under the Apache 2.0 licence, see  for details.
-|| rev 0507a ||
+This guide has been released under the Apache 2.0 licence, see https://github.com/YodelPenguin/pensive-penguin/blob/master/LICENCE for details.
+|| 1.2.0 - rev 07/06/20  ||
