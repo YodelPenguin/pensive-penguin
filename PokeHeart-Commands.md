@@ -13,7 +13,8 @@
 > **Catches** Pokemon **currently spawned** on screen
 > / with **`balltype`** (great, ultra etc.)
 
-:page_with_curl: `p!info` <`latest`> < *`X`*> <`p!nickname` *`name`*>
+:page_with_curl: `p!info` <`latest`> <
+ *`X`*> <`p!nickname` *`name`*>
 > **Info** on chosen Pokemon / latest caught
 > /** ID No *`X`* **
 > /** Nickname *`X`* *`name`* **
