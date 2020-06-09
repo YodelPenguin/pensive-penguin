@@ -105,4 +105,4 @@
 :penguin: Feel free to PM me on Discord ( @Yodel Penguin#9982 ) if this needs updating or something in this guide doesn't work the way it's typed!
 
 This guide has been released under the Apache 2.0 licence, see https://github.com/YodelPenguin/pensive-penguin/blob/master/LICENCE for details.
-|| 1.3.2 - rev 09/06/20  ||
+|| 1.3.3 - rev 09/06/20  ||
