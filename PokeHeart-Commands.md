@@ -11,7 +11,7 @@
  **General**
 ------------
 
-:baseball: `p!catch` *Pokemon*  /  {`p!balltype`}
+:baseball: `p!catch` *Pokemon*  /  {`p!balltype` *Pokemon*}
 > **Catches** Pokemon **currently spawned** on screen
 > / with **`balltype`** (great, ultra etc.)
 
@@ -20,30 +20,41 @@
 > /** ID No *`X`* **
 > /** Nickname *`X`* *`name`* **
 
+:bookmark_tabs: `p!pokemon` <`PageNo`>
+> **Displays owned Pokemon** as paged list
+
 :ballot_box_with_check: `p!select` <*`X`*> <`latest`>
 > **Select** Pokemon *`X`* (for checking moves, training & nicknaming)
 > /Select **latest Pokemon in your list**
 
-:cyclone:  `p!moves`
+:feet: `p!friendship` *`X`*
+> Shows **friendship level** of Pokemon *`X`*
+> (Use `1` for your **default starter**)
+> Currently **not implemented**
+
+## SPLIT HERE (Discord message character limit) 1/2
+
+**Pokemon Teams & Moves**
+------------
+
+:arrow_heading_down: `p!teamadd` *`X`*
+> Add Pokemon *`X`* to **your team**
+> Added Pokemon **cannot be removed** from a team currently
+
+:four_leaf_clover: `p!team`
+> Displays your current team
+
+:cyclone: `p!moves`
 > **Displays currently known moves** for selected Pokemon
 
-:: `p!learnset` {`p!learn` *`M`*}
+:bulb: `p!learnset` {`p!learn` *`M`*}
 > Shows all moves your selected Pokemon **can currently learn**
 > /**Teaches selected Pokemon** move *`M`*
 > This command **is incomplete** and will be improved on in the future
 
-:bookmark_tabs: `p!pokemon` <`PageNo`>
-> **Displays owned Pokemon** as paged list
-
-:feet: `p!friendship` *`X`*
-> Shows **friendship level** of Pokemon *`X`*
-> (Use `1` for your **default starter**)
-
-## SPLIT HERE (Discord character limit) 1/2
-
 **Items & Trading**
 ------------
- :convenience_store: `p!shop` <`stone`> <`forms`> <`misc`> <`images`>
+:convenience_store: `p!shop` <`stone`> <`forms`> <`misc`> <`images`>
 > **Evolution** Stones / **Form Items**
 > **Miscellaneous** / Image **Variations**
 > *Shop is currently* ***view only***
@@ -69,6 +80,8 @@
 > Confirms the trade with *`@DiscordUser `*
 > ***Cancelling the trade doesn't seem to work right now (at least for me), wait for it to time-out if you want to cancel***
 
+## SPLIT HERE (Discord message character limit 3/3)
+
 **Server & Misc**
 ------------
 :grey_question: `p!help`  
@@ -89,7 +102,7 @@
 
 **About & Revision Info**
 -----------
-:penguin: PM me ( @Yodel Penguin#9982 ) if this needs updating or something doesn't work!
+:penguin: Feel free to PM me on Discord ( @Yodel Penguin#9982 ) if this needs updating or something in this guide doesn't work the way it's typed!
 
 This guide has been released under the Apache 2.0 licence, see https://github.com/YodelPenguin/pensive-penguin/blob/master/LICENCE for details.
-|| 1.2.2 - rev 07/06/20  ||
+|| 1.3.2 - rev 09/06/20  ||
