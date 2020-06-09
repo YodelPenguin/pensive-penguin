@@ -100,12 +100,13 @@
 :arrow_up: `p!levelup`
 > Toggles **level-up** notifications on/off
 
-:loop: `p!redirect` <*`channelID`*>
-> Redirect spawns to *`channelID`*, requires admin permissions
+:loop: `p!redirect` <*`channelID`*> {`p!delredirect`}
+> Redirect spawns to *`channelID`*, **requires admin permissions**
+> / **Removes the redirect** so spawns are in all channels again
 
 **About & Revision Info**
 -----------
 :penguin: Feel free to PM me on Discord ( @Yodel Penguin#9982 ) if this needs updating or something in this guide doesn't work the way it's typed!
 
 This guide has been released under the Apache 2.0 licence, see https://github.com/YodelPenguin/pensive-penguin/blob/master/LICENCE for details.
-|| 1.3.3 - rev 09/06/20  ||
+|| 1.3.4 - rev 09/06/20  ||
