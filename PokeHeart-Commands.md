@@ -89,7 +89,10 @@
 > ***Currently not implemented***
 
 :alarm_clock: `p!time`
-> Shows **current game time** relative to your time zone  
+> Shows **current game time** relative to your time zone
+
+:satellite: `p!ping`
+> Pings the bot and responds with response time in ms (milliseconds)
 
 :computer: `p!servers`
 > **Stats** on how many servers PokeHeart is currently running on
