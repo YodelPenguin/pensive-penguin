@@ -6,6 +6,7 @@
 *`{}` = Command substitute (i.e. use instead of, usually before/after)*
 *`X` = Pokemon ID*
 *`S` = Stirling, PokeHeart's currency*
+*`M` = Pokemon move, find this from `p!learnset` or `p!moves`*
 
  **General**
 ------------
@@ -19,11 +20,17 @@
 > /** ID No *`X`* **
 > /** Nickname *`X`* *`name`* **
 
-:ballot_box_with_check: `p!select` <*`X`*>
-> Select Pokemon *`X`* (for trading/checking moves)
+:ballot_box_with_check: `p!select` <*`X`*> <`latest`>
+> **Select** Pokemon *`X`* (for checking moves, training & nicknaming)
+> /Select **latest Pokemon in your list**
 
 :cyclone:  `p!moves`
-> **Displays moves** for selected Pokemon
+> **Displays currently known moves** for selected Pokemon
+
+:: `p!learnset` {`p!learn` *`M`*}
+> Shows all moves your selected Pokemon **can currently learn**
+> /**Teaches selected Pokemon** move *`M`*
+> This command **is incomplete** and will be improved on in the future
 
 :bookmark_tabs: `p!pokemon` <`PageNo`>
 > **Displays owned Pokemon** as paged list
@@ -59,7 +66,7 @@
 > Add/remove *`S`* **amount of Stirling** to the trade
 
 :white_check_mark: `p!confirm`
-> Confirms the trade with *`@DiscordUser'*
+> Confirms the trade with *`@DiscordUser `*
 > ***Cancelling the trade doesn't seem to work right now (at least for me), wait for it to time-out if you want to cancel***
 
 **Server & Misc**
