@@ -95,7 +95,7 @@
 > **Stats** on how many servers PokeHeart is currently running on
 
 :arrow_up: `p!levelup`
-> Toggles **level-up** notifications
+> Toggles **level-up** notifications on/off
 
 :loop: `p!redirect` <*`channelID`*>
 > Redirect spawns to *`channelID`*, requires admin permissions
